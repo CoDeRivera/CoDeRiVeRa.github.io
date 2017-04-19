@@ -17,7 +17,8 @@ h1{
 }
 #navbar{
 	list-style:none; 
-	float:right;  
+	float:right;
+	margin-left:-10px;
 }
 #navbar li{
 	display:inline-block;
