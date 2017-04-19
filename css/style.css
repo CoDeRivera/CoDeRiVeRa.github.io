@@ -38,13 +38,12 @@ header:after{
 }
 body{
 	margin:0 auto;
-	width:95%;
 	background:black;
 	color:darkred;
 }
 #container{
 	background:darkred;
-	width:100%;
+	width:95%;
 	height:80vh;
 	margin:0 auto;	
 	border-top:1px solid white;
@@ -57,7 +56,7 @@ body{
 #left-door{
 	width:50%;
 	height:100%;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.5);
 	border-right:5px solid #c0c0c0;
 	float:left;
 	position:relative;
@@ -66,7 +65,7 @@ body{
 #right-door{
 	width:50%;
 	height:100%;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.5);
 	border-left:5px solid #c0c0c0;
 	float:right;
 	position:relative;
@@ -77,8 +76,9 @@ body{
 
 /*Content Display*/
 .default{
-	position:relative;
-	top:5%;
+	position:absolute;
+	top:35%;
+	left:25%;
 	width:50%;
 	min-height:20%;
 	max-height:60%;
@@ -225,3 +225,4 @@ footer{
 	}  
 } 
  */
+
