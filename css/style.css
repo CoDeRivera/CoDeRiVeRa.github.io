@@ -57,7 +57,7 @@ body{
 #left-door{
 	width:50%;
 	height:100%;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,0);
 	border-right:5px solid #c0c0c0;
 	float:left;
 	position:relative;
@@ -66,7 +66,7 @@ body{
 #right-door{
 	width:50%;
 	height:100%;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,0);
 	border-left:5px solid #c0c0c0;
 	float:right;
 	position:relative;
