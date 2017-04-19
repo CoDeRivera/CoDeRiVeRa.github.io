@@ -141,7 +141,6 @@ footer{
 		margin:10px auto;
 		width:100%;
 		display:block;
-		
 	}
 	#navbar{
 		list-style:none; 
@@ -149,27 +148,21 @@ footer{
 		margin:0 auto;
 		text-align:center;
 		font-size:22px;
-        width:95%;
-        display:block;
+		width:95%;
+		display:block;
 	}
-
 	#navbar li{
 		text-decoration:none;
 		display:block;
 		margin:10px;
 	}
-    #navbar li:hover{
+	#navbar li:hover{
 		background:darkblue;
 		border-radius:5px;  
-	}
-
-
-	button{
-		margin:0;
-	}
+	}	
 	.default{
 		position:relative;
-		top:25%;
+		top:15%;
 		width:50%;
 		min-height:20%;
 		max-height:60%;
@@ -180,7 +173,6 @@ footer{
 		overflow:hidden;
 	}
 }
-
 /*==============================================================================
             Green Back
 ===============================================================================*/
@@ -213,9 +205,9 @@ footer{
 		display:block;
 		width:95%;
 	}
-    	#navbar li:hover{
+	#navbar li:hover{
 		background:darkgreen;	
-        border-radius:5px;
+		border-radius:5px;
 	}
 	.default{
 		position:relative;
