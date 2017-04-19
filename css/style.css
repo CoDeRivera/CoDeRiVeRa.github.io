@@ -18,7 +18,6 @@ h1{
 #navbar{
 	list-style:none; 
 	float:right;
-	margin-left:-10px;
 }
 #navbar li{
 	display:inline-block;
@@ -146,7 +145,7 @@ footer{
 	#navbar{
 		list-style:none; 
 		border:1px solid white;
-		margin:0 auto;
+		margin:0 0 0 -10px;
 		text-align:center;
 		font-size:22px;
 		width:95%;
