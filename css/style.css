@@ -1,0 +1,234 @@
+*{box-sizing:border-box;}
+a{
+	color:white;
+	padding:10px;
+}
+
+h1{
+	margin:5px 0 0;
+}
+ .logo1{
+	height:100px;
+	width:175px;
+	float:left;
+}
+.logo2, .logo3{
+	display:none;
+}
+#navbar{
+	list-style:none; 
+	float:right;  
+}
+#navbar li{
+	display:inline-block;
+}
+#navbar li:hover{
+	background:darkred;
+	border-radius:20px;  
+}
+#navbar li a{
+	text-decoration:none;
+	display:inline;
+	margin:10px;
+ }
+header:after{
+	content: "";  
+	display:table; 
+	clear: both;  
+}
+body{
+	margin:0 auto;
+	width:95%;
+	background:black;
+	color:darkred;
+}
+#container{
+	background:darkred;
+	width:100%;
+	height:600px;
+	margin:0 auto;
+	overflow:hidden;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+} 
+
+/*Doors*/
+
+#left-door{
+	width:50%;
+	height:100%;
+	background:rgba(0,0,0,.6);
+	border-right:5px solid #c0c0c0;
+	float:left;
+	position:relative;
+	z-index:3;
+}
+#right-door{
+	width:50%;
+	height:100%;
+	background:rgba(0,0,0,.6);
+	border-left:5px solid #c0c0c0;
+	float:right;
+	position:relative;
+	z-index:3;
+}
+/*End of Doors*/
+
+/*Content Display*/
+.default{
+	position:relative;
+	top:25%;
+	width:50%;
+	min-height:20%;
+	max-height:60%;
+	margin:25px auto;
+	padding:0 30px;
+	background:black;
+	z-index:2;
+	overflow:hidden;
+}
+#left-profile{
+	padding:0;
+	text-align:center;
+	list-style:none;
+	border:1px solid white;
+	display:inline-block; 
+}
+#right-profile{
+	padding:0;
+	text-align:center;
+	list-style:none;
+	border:1px solid white;
+	display:inline-block;
+  
+}
+.thumb{
+	width:20%;
+	height:auto;
+	background:white;
+	border:1px solid blue;
+	margin:10px 5px;
+	border:3px solid #c0c0c0;
+	font-size: 64px;
+	text-align:center;
+}
+/*End of Content Display*/
+
+
+footer{
+	text-align:center;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	color:white;
+}
+
+ /*==============================================================================
+            Blue Back
+===============================================================================*/
+@media (max-width:768px){
+
+	#container{
+		width:95%;
+		margin:0 auto;
+		background:darkblue;
+		color:darkblue;
+	}
+	.logo1, .logo3{
+		display:none;
+	}
+	.logo2{
+		height:100px;
+		margin:10px auto;
+		width:100%;
+		display:block;
+		
+	}
+	#navbar{
+		list-style:none; 
+		border:1px solid white;
+		margin:0 auto;
+		text-align:center;
+		font-size:22px;
+        width:95%;
+        display:block;
+	}
+
+	#navbar li{
+		text-decoration:none;
+		display:block;
+		margin:10px;
+	}
+    #navbar li:hover{
+		background:darkblue;
+		border-radius:5px;  
+	}
+
+
+	button{
+		margin:0;
+	}
+	.default{
+		position:absolute;
+		top:45%;
+		left:25%;
+		width:50%;
+		min-height:50%;
+		max-height:50%;
+		margin:25px auto;
+		padding:0 30px;
+		background:black;
+		z-index:2;
+	}  
+}
+
+/*==============================================================================
+            Green Back
+===============================================================================*/
+@media (max-width:468px){
+	#container{
+		background:darkgreen;
+		color:darkgreen;
+		width:100%;
+		margin:0 auto;
+		overflow:hidden;
+		border-top:1px solid white;
+		border-bottom:1px solid white;
+	}
+	.logo1, .logo2{
+		display:none;
+	}
+	.logo3{
+		height:100px;
+		margin:10px auto;
+		width:100%;
+		display:block;
+	}
+	#navbar{
+		list-style:none; 
+		width:98%;
+		font-size:18px;
+	}
+	#navbar li {
+		width:100%;
+		display:block;
+		width:95%;
+	}
+    #navbar li:hover{
+		background:darkgreen;	
+        border-radius:5px;
+	}
+
+	.default{
+		position:relative;
+		top:10%;
+		left:0;
+		width:95%;
+		min-height:20%;
+		max-height:60%;
+		margin:0 auto;
+		padding:0 30px;
+		background:black;
+		z-index:2;
+		overflow:hidden;
+	}  
+} 
