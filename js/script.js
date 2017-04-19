@@ -13,7 +13,7 @@ $('#navbar li').click(function(){
 
 
 $('#clear').click (function(){
-	$('.default').hide();
+	$('.default').fadeToggle();
 });	
 
 $('#activate').click(function(){
