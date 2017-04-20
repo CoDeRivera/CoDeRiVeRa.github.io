@@ -1,16 +1,17 @@
 *{box-sizing:border-box;}
-a{
-	color:white;
+/*a{
+	color:darkred;
 	padding:10px;
 }
-
+*/
 h1{
 	margin:5px 0 0;
 }
+
  .logo1{
 	height:100px;
-	width:175px;
 	float:left;
+	margin: 15px 0 10px 50px;
 }
 .logo2, .logo3{
 	display:none;
@@ -18,18 +19,27 @@ h1{
 #navbar{
 	list-style:none; 
 	float:right;
+	margin-right:50px;
+	padding:15px;
 }
 #navbar li{
 	display:inline-block;
+	padding:15px;
+	border-right:2px solid darkred;
+	border-left:2px solid darkred;
 }
 #navbar li:hover{
 	background:darkred;
-	border-radius:20px;  
+	color:white;
+	border-radius:5px;
+	border-right:2px solid white;
+	border-left:2px solid white;  
 }
 #navbar li a{
 	text-decoration:none;
 	display:inline;
 	margin:10px;
+	color:white;
  }
 header:after{
 	content: "";  
@@ -77,11 +87,11 @@ body{
 /*Content Display*/
 .default{
 	position:absolute;
-	top:35%;
+	top:25%;
 	left:25%;
 	width:50%;
-	min-height:20%;
-	max-height:60%;
+	min-height:5%;
+	height:45%;
 	margin:25px auto;
 	padding:0 30px;
 	background:black;
@@ -126,13 +136,14 @@ footer{
  /*==============================================================================
             Blue Back
 ===============================================================================*/
-/* @media (max-width:768px){
+ @media (max-width:1024px){
 
 	#container{
-		width:95%;
+		width:100%;
 		margin:0 auto;
 		background:darkblue;
 		color:darkblue;
+		
 	}
 	.logo1, .logo3{
 		display:none;
@@ -140,45 +151,51 @@ footer{
 	.logo2{
 		height:100px;
 		margin:10px auto;
-		width:100%;
+		width:60%;
 		display:block;
 	}
 	#navbar{
 		list-style:none; 
-		border:1px solid white;
-		margin-left: -30px;
-		text-align:center;
-		font-size:22px;
+		border:1px solid red;
 		width:95%;
+		font-size:24px;
+		text-align: center;
 		display:block;
+		margin:0;
+		padding:0;
 	}
 	#navbar li{
-		text-decoration:none;
+		border:1px solid white;
 		display:block;
-		margin:10px;
-		padding:5px 0;
+		width:100%;
+		margin:0;
+		text-align: center;
 	}
 	#navbar li:hover{
 		background:darkblue;
-		border-radius:5px;  
+		width:99%;
+		color:white;
+	  
 	}	
 	.default{
-		position:relative;
-		
-		width:50%;
+		position:absolute;
+		top:35%;
+		width:90%;
 		min-height:20%;
 		max-height:60%;
 		margin:25px auto;
 		padding:0 30px;
-		background:black;
-		z-index:2;
+		background:black;		
 		overflow:hidden;
+		z-index:2;
 	}
-} */
+	footer{color:blue;}
+} 
 /*==============================================================================
             Green Back
 ===============================================================================*/
-/* @media (max-width:468px){
+ @media (max-width:480px){
+  
 	#container{
 		background:darkgreen;
 		color:darkgreen;
@@ -194,35 +211,53 @@ footer{
 	.logo3{
 		height:100px;
 		margin:10px auto;
-		width:100%;
+		/*width:100%;*/
 		display:block;
 	}
 	#navbar{
-		list-style:none; 
-		width:98%;
+		list-style:none;
+		border:1px solid red;
+		width:100%;
 		font-size:18px;
+		margin:0;
+		padding:0;
 	}
 	#navbar li {
+		border:1px solid white;
 		width:100%;
 		display:block;
 		width:95%;
+		margin:0 auto;
 	}
 	#navbar li:hover{
 		background:darkgreen;	
 		border-radius:5px;
 	}
-	.default{
-		position:relative;
+/*	.default{
+		position:absolute;
 		top:25%;
-		width:50%;
+		width:85%;
 		min-height:20%;
-		max-height:60%;
-		margin:25px auto;
-		padding:0 30px;
+		max-height:50%;
+		margin:0 auto;
+		padding:10px 30px;
 		background:black;
 		z-index:2;
 		overflow:hidden;
-	}  
+	}*/ 
+	.default{
+	position:absolute;
+	top:35%;
+	min-width: 70%;
+	max-width:70%;
+	min-height:5%;
+	height:45%;
+	margin:25px -45px;
+	padding:0 30px;
+	background:black;
+	z-index:2;
+	overflow:hidden;
+	}
+	footer{color:green;} 
 } 
- */
-
+ 
