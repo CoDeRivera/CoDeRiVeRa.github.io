@@ -179,8 +179,7 @@ footer{
 	.default{
 		position:absolute;
 		top:35%;
-		left:25%;
-		
+		left:25%;		
 		min-height:5%;
 		height:45%;
 		margin:25px auto;
@@ -234,23 +233,10 @@ footer{
 		background:darkgreen;	
 		border-radius:5px;
 	}
-/*	.default{
-		position:absolute;
-		top:25%;
-		width:85%;
-		min-height:20%;
-		max-height:50%;
-		margin:0 auto;
-		padding:10px 30px;
-		background:black;
-		z-index:2;
-		overflow:hidden;
-	}*/ 
 	.default{
 	position:absolute;
 	top:35%;
-	min-width: 70%;
-	max-width:70%;
+
 	min-height:5%;
 	height:45%;
 	margin:25px -45px;
