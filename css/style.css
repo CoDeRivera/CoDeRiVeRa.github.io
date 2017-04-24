@@ -234,18 +234,7 @@ footer{
 		background:darkgreen;	
 		border-radius:5px;
 	}
-/*	.default{
-		position:absolute;
-		top:25%;
-		width:85%;
-		min-height:20%;
-		max-height:50%;
-		margin:0 auto;
-		padding:10px 30px;
-		background:black;
-		z-index:2;
-		overflow:hidden;
-	}*/ 
+
 	.default{
 	position:absolute;
 	top:35%;
@@ -257,6 +246,7 @@ footer{
 	z-index:2;
 	overflow:hidden;
 	border:1px solid white;
+	color:white;
 	}
 	footer{color:green;} 
 } 
