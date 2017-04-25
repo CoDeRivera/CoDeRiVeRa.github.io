@@ -11,13 +11,3 @@ $('#navbar li').click(function(){
 	$('#' + this.id +'-content').fadeToggle();
 });
 
-
-
-$('#clear').click (function(){
-	$('.default').fadeToggle();
-});	
-
-$('#activate').click(function(){
-	$('#left-door').animate({width:'toggle'});
-	$('#right-door').animate({width:'toggle'})
-});
