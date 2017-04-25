@@ -1,5 +1,4 @@
 
-
 $('.default').hide();
 $('#left-door').hide();
 $('#right-door').hide();
