@@ -1,4 +1,129 @@
-*{box-sizing:border-box;}
+body{
+    text-align: center;
+}
+a{
+	font-size:12px;
+	font-family: "Lato", sans-serif;
+}
+h5{
+	margin:0;
+
+}
+
+.container{
+	width:90%;
+	/*margin:0 auto;*/
+}
+
+.loginForm{
+    color:black;
+    text-align: right;
+    background-color: #282e34;
+    border: 2px solid white;
+
+    margin: 0 auto;
+    padding:5px;
+    
+}
+
+
+
+#database{
+    color:black;
+    text-align: center;
+    background-color: darkgrey;
+    border: 2px solid white;
+    display:inline-block;
+    margin: 10%;
+    padding:2px;
+    width: 50%;
+}
+
+
+
+ol, ul{
+    display:inline-block;
+}
+
+/* This css is for the parallax portfolio*/
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+	position:relative;
+	opacity: 0.80;
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+
+
+    /*fixed = parallel*/
+    /*scroll = normal*/
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background-image:url('http://res.cloudinary.com/dd6mwtyrj/image/upload/v1503608395/earth_bjwbv0.jpg');
+	min-height:80%;
+}
+
+.pimg2{
+	background-image:url('http://res.cloudinary.com/dd6mwtyrj/image/upload/v1503608394/sourcecode_ck3car.jpg');
+	min-height:400px;
+}
+
+.pimg3{
+	background-image:url('http://res.cloudinary.com/dd6mwtyrj/image/upload/v1503608395/fireflame_wnxphp.jpg');
+	min-height:400px;
+}
+
+.pimg4{
+	background-image:url('http://res.cloudinary.com/dd6mwtyrj/image/upload/v1503608400/code_h5wwbk.jpg');
+	min-height:400px;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color:#666;
+}
+
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	font-size:27px;
+	letter-spacing: 8px;
+	text-transform:uppercase;
+
+}
+
+.border{
+	background-color:#111;
+	color:#fff;
+	padding:20px;
+}
+
+/*====================================================================================================================*/
+/* *{box-sizing:border-box;}
 /*a{
 	color:darkred;
 	padding:10px;
@@ -254,3 +379,4 @@ footer{
 	footer{color:green;} 
 } 
  
+ */
